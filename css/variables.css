@@ -1,0 +1,40 @@
+:root {
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.25rem;
+  --space-5: 1.5rem;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.14);
+  --transition: 220ms ease;
+
+  --bg: #f4f7fb;
+  --text: #172033;
+  --muted: #4f617d;
+  --card-bg: rgba(255, 255, 255, 0.82);
+  --border: rgba(255, 255, 255, 0.3);
+  --btn-bg: #fff;
+  --btn-text: #172033;
+  --chip-bg: rgba(255, 255, 255, 0.7);
+  --skeleton-a: rgba(255, 255, 255, 0.3);
+  --skeleton-b: rgba(255, 255, 255, 0.7);
+  --error-bg: rgba(184, 34, 34, 0.1);
+  --error-text: #8b0000;
+}
+
+.app[data-theme="dark"] {
+  --bg: #dce0ea;
+  --text: #f2f2f2;
+  --muted: #b2bfdc;
+  --card-bg: rgba(16, 24, 45, 0.78);
+  --border: rgba(255, 255, 255, 0.12);
+  --btn-bg: rgba(255, 255, 255, 0.1);
+  --btn-text: #e9eefb;
+  --chip-bg: rgba(255, 255, 255, 0.08);
+  --skeleton-a: rgba(255, 255, 255, 0.08);
+  --skeleton-b: rgba(255, 255, 255, 0.18);
+  --error-bg: rgba(255, 110, 110, 0.13);
+  --error-text: #ffb8b8;
+}
