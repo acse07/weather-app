@@ -59,7 +59,7 @@ async function fetchByCoords(lat, lon, cityLabel) {
     const [currentData, forecastData, uvData] = await Promise.all([
       fetchCurrentWeatherByCoords(lat, lon, "metric"),
       fetchForecastByCoords(lat, lon, "metric"),
-      fetchUvIndex(lat, lon)
+      fetchUvIndex(lat, lon).catch(() => null)
     ]);
 
     currentUvData = uvData;
